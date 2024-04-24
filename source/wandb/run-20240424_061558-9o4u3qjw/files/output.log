@@ -1,0 +1,8 @@
+
+Total number of parameters:  9231114
+  0%|                                                                                                   | 0/20 [00:01<?, ?it/s]
+Traceback (most recent call last):
+  File "/home/ubuntu/21thanh.ht/imbalanced_dynamics/source/train_cifar10.py", line 88, in <module>
+    correct += (outputs == targets).float().sum()
+                ^^^^^^^^^^^^^^^^^^
+RuntimeError: The size of tensor a (10) must match the size of tensor b (128) at non-singleton dimension 1
