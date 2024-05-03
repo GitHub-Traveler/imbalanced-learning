@@ -1,0 +1,23 @@
+2024-05-02 16:27:01,942 INFO    MainThread:762074 [wandb_setup.py:_flush():76] Current SDK version is 0.16.5
+2024-05-02 16:27:01,942 INFO    MainThread:762074 [wandb_setup.py:_flush():76] Configure stats pid to 762074
+2024-05-02 16:27:01,942 INFO    MainThread:762074 [wandb_setup.py:_flush():76] Loading settings from /home/ubuntu/.config/wandb/settings
+2024-05-02 16:27:01,942 INFO    MainThread:762074 [wandb_setup.py:_flush():76] Loading settings from /home/ubuntu/21thanh.ht/imbalanced_dynamics/source/wandb/settings
+2024-05-02 16:27:01,942 INFO    MainThread:762074 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-05-02 16:27:01,942 INFO    MainThread:762074 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-05-02 16:27:01,942 INFO    MainThread:762074 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'source/train_cifar10.py', 'program_abspath': '/home/ubuntu/21thanh.ht/imbalanced_dynamics/source/train_cifar10.py', 'program': '/home/ubuntu/21thanh.ht/imbalanced_dynamics/source/train_cifar10.py'}
+2024-05-02 16:27:01,942 INFO    MainThread:762074 [wandb_setup.py:_flush():76] Applying login settings: {}
+2024-05-02 16:27:01,943 INFO    MainThread:762074 [wandb_init.py:_log_setup():527] Logging user logs to /home/ubuntu/21thanh.ht/imbalanced_dynamics/source/wandb/run-20240502_162701-ccrmqoxr/logs/debug.log
+2024-05-02 16:27:01,943 INFO    MainThread:762074 [wandb_init.py:_log_setup():528] Logging internal logs to /home/ubuntu/21thanh.ht/imbalanced_dynamics/source/wandb/run-20240502_162701-ccrmqoxr/logs/debug-internal.log
+2024-05-02 16:27:01,943 INFO    MainThread:762074 [wandb_init.py:init():567] calling init triggers
+2024-05-02 16:27:01,943 INFO    MainThread:762074 [wandb_init.py:init():574] wandb.init called with sweep_config: {}
+config: {}
+2024-05-02 16:27:01,943 INFO    MainThread:762074 [wandb_init.py:init():617] starting backend
+2024-05-02 16:27:01,943 INFO    MainThread:762074 [wandb_init.py:init():621] setting up manager
+2024-05-02 16:27:01,947 INFO    MainThread:762074 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-05-02 16:27:01,949 INFO    MainThread:762074 [wandb_init.py:init():629] backend started and connected
+2024-05-02 16:27:01,954 INFO    MainThread:762074 [wandb_init.py:init():721] updated telemetry
+2024-05-02 16:27:01,963 INFO    MainThread:762074 [wandb_init.py:init():754] communicating run to backend with 90.0 second timeout
+2024-05-02 16:27:02,619 INFO    MainThread:762074 [wandb_run.py:_on_init():2344] communicating current version
+2024-05-02 16:27:02,912 INFO    MainThread:762074 [wandb_run.py:_on_init():2353] got version response upgrade_message: "wandb version 0.16.6 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2024-05-02 16:27:02,912 INFO    MainThread:762074 [wandb_init.py:init():805] starting run threads in backend

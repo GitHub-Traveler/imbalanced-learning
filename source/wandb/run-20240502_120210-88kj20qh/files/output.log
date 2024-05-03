@@ -1,0 +1,43 @@
+
+Total number of parameters:  9231114
+
+
+
+
+
+
+
+
+
+ 50%|██████████████████████████████████████████████████████████████████████████████████████                                                                                      | 10/20 [00:59<00:59,  5.94s/it]Exception ignored in: <function _releaseLock at 0x7fd5dcac2840>
+Traceback (most recent call last):
+  File "/home/ubuntu/miniconda3/envs/EmThanhServer/lib/python3.11/logging/__init__.py", line 237, in _releaseLock
+    def _releaseLock():
+KeyboardInterrupt:
+ 50%|██████████████████████████████████████████████████████████████████████████████████████                                                                                      | 10/20 [01:04<01:04,  6.49s/it]
+Traceback (most recent call last):
+  File "/home/ubuntu/miniconda3/envs/EmThanhServer/lib/python3.11/site-packages/torch/utils/data/dataloader.py", line 1133, in _try_get_data
+    data = self._data_queue.get(timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/miniconda3/envs/EmThanhServer/lib/python3.11/queue.py", line 179, in get
+    raise Empty
+_queue.Empty
+The above exception was the direct cause of the following exception:
+Traceback (most recent call last):
+  File "/home/ubuntu/21thanh.ht/imbalanced_dynamics/source/train_cifar10.py", line 88, in <module>
+    for inputs, targets in train_dataloader:
+  File "/home/ubuntu/miniconda3/envs/EmThanhServer/lib/python3.11/site-packages/accelerate/data_loader.py", line 452, in __iter__
+    current_batch = next(dataloader_iter)
+                    ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/miniconda3/envs/EmThanhServer/lib/python3.11/site-packages/torch/utils/data/dataloader.py", line 631, in __next__
+    data = self._next_data()
+           ^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/miniconda3/envs/EmThanhServer/lib/python3.11/site-packages/torch/utils/data/dataloader.py", line 1329, in _next_data
+    idx, data = self._get_data()
+                ^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/miniconda3/envs/EmThanhServer/lib/python3.11/site-packages/torch/utils/data/dataloader.py", line 1285, in _get_data
+    success, data = self._try_get_data()
+                    ^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/miniconda3/envs/EmThanhServer/lib/python3.11/site-packages/torch/utils/data/dataloader.py", line 1146, in _try_get_data
+    raise RuntimeError(f'DataLoader worker (pid(s) {pids_str}) exited unexpectedly') from e
+RuntimeError: DataLoader worker (pid(s) 654155, 654156, 654157, 654158) exited unexpectedly

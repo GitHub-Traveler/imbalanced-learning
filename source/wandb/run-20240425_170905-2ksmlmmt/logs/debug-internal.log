@@ -1,0 +1,362 @@
+2024-04-25 17:09:05,305 INFO    StreamThr :216459 [internal.py:wandb_internal():86] W&B internal server running at pid: 216459, started at: 2024-04-25 17:09:05.304832
+2024-04-25 17:09:05,306 DEBUG   HandlerThread:216459 [handler.py:handle_request():146] handle_request: status
+2024-04-25 17:09:05,308 INFO    WriterThread:216459 [datastore.py:open_for_write():87] open: /home/ubuntu/21thanh.ht/imbalanced_dynamics/source/wandb/run-20240425_170905-2ksmlmmt/run-2ksmlmmt.wandb
+2024-04-25 17:09:05,309 DEBUG   SenderThread:216459 [sender.py:send():379] send: header
+2024-04-25 17:09:05,310 DEBUG   SenderThread:216459 [sender.py:send():379] send: run
+2024-04-25 17:09:05,979 INFO    SenderThread:216459 [dir_watcher.py:__init__():211] watching files in: /home/ubuntu/21thanh.ht/imbalanced_dynamics/source/wandb/run-20240425_170905-2ksmlmmt/files
+2024-04-25 17:09:05,979 INFO    SenderThread:216459 [sender.py:_start_run_threads():1124] run started: 2ksmlmmt with start time 1714064945.304495
+2024-04-25 17:09:05,985 DEBUG   HandlerThread:216459 [handler.py:handle_request():146] handle_request: check_version
+2024-04-25 17:09:05,989 DEBUG   SenderThread:216459 [sender.py:send_request():406] send_request: check_version
+2024-04-25 17:09:06,192 DEBUG   HandlerThread:216459 [handler.py:handle_request():146] handle_request: run_start
+2024-04-25 17:09:06,222 DEBUG   HandlerThread:216459 [system_info.py:__init__():26] System info init
+2024-04-25 17:09:06,222 DEBUG   HandlerThread:216459 [system_info.py:__init__():41] System info init done
+2024-04-25 17:09:06,222 INFO    HandlerThread:216459 [system_monitor.py:start():194] Starting system monitor
+2024-04-25 17:09:06,222 INFO    SystemMonitor:216459 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-04-25 17:09:06,223 INFO    HandlerThread:216459 [system_monitor.py:probe():214] Collecting system info
+2024-04-25 17:09:06,223 INFO    SystemMonitor:216459 [interfaces.py:start():190] Started cpu monitoring
+2024-04-25 17:09:06,231 INFO    SystemMonitor:216459 [interfaces.py:start():190] Started disk monitoring
+2024-04-25 17:09:06,241 INFO    SystemMonitor:216459 [interfaces.py:start():190] Started gpu monitoring
+2024-04-25 17:09:06,245 INFO    SystemMonitor:216459 [interfaces.py:start():190] Started memory monitoring
+2024-04-25 17:09:06,249 INFO    SystemMonitor:216459 [interfaces.py:start():190] Started network monitoring
+2024-04-25 17:09:06,288 DEBUG   HandlerThread:216459 [system_info.py:probe():150] Probing system
+2024-04-25 17:09:06,293 DEBUG   HandlerThread:216459 [system_info.py:_probe_git():135] Probing git
+2024-04-25 17:09:06,298 DEBUG   HandlerThread:216459 [system_info.py:_probe_git():143] Probing git done
+2024-04-25 17:09:06,299 DEBUG   HandlerThread:216459 [system_info.py:probe():198] Probing system done
+2024-04-25 17:09:06,299 DEBUG   HandlerThread:216459 [system_monitor.py:probe():223] {'os': 'Linux-5.15.0-102-generic-x86_64-with-glibc2.31', 'python': '3.11.8', 'heartbeatAt': '2024-04-25T17:09:06.288530', 'startedAt': '2024-04-25T17:09:05.299989', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '/home/ubuntu/21thanh.ht/imbalanced_dynamics/source/train_cifar10.py', 'codePathLocal': 'train_cifar10.py', 'codePath': 'source/train_cifar10.py', 'git': {'remote': 'https://github.com/GitHub-Traveler/imbalanced-learning', 'commit': '44ae45b819c3d1c59df09bccf1df06452f4fd3ba'}, 'email': 'trungthanhhy1@gmail.com', 'root': '/home/ubuntu/21thanh.ht/imbalanced_dynamics', 'host': '0c2eba2d575f', 'username': 'ubuntu', 'executable': '/home/ubuntu/miniconda3/envs/EmThanhServer/bin/python', 'cpu_count': 32, 'cpu_count_logical': 64, 'cpu_freq': {'current': 3.4132812499999994, 'min': 1200.0, 'max': 3900.0}, 'cpu_freq_per_core': [{'current': 3.499, 'min': 1200.0, 'max': 3900.0}, {'current': 3.302, 'min': 1200.0, 'max': 3900.0}, {'current': 3.499, 'min': 1200.0, 'max': 3900.0}, {'current': 3.499, 'min': 1200.0, 'max': 3900.0}, {'current': 3.5, 'min': 1200.0, 'max': 3900.0}, {'current': 3.499, 'min': 1200.0, 'max': 3900.0}, {'current': 3.5, 'min': 1200.0, 'max': 3900.0}, {'current': 3.454, 'min': 1200.0, 'max': 3900.0}, {'current': 3.499, 'min': 1200.0, 'max': 3900.0}, {'current': 3.5, 'min': 1200.0, 'max': 3900.0}, {'current': 3.499, 'min': 1200.0, 'max': 3900.0}, {'current': 3.499, 'min': 1200.0, 'max': 3900.0}, {'current': 3.499, 'min': 1200.0, 'max': 3900.0}, {'current': 3.5, 'min': 1200.0, 'max': 3900.0}, {'current': 3.5, 'min': 1200.0, 'max': 3900.0}, {'current': 3.5, 'min': 1200.0, 'max': 3900.0}, {'current': 3.499, 'min': 1200.0, 'max': 3900.0}, {'current': 3.499, 'min': 1200.0, 'max': 3900.0}, {'current': 3.5, 'min': 1200.0, 'max': 3900.0}, {'current': 3.499, 'min': 1200.0, 'max': 3900.0}, {'current': 3.499, 'min': 1200.0, 'max': 3900.0}, {'current': 3.499, 'min': 1200.0, 'max': 3900.0}, {'current': 3.499, 'min': 1200.0, 'max': 3900.0}, {'current': 3.5, 'min': 1200.0, 'max': 3900.0}, {'current': 3.476, 'min': 1200.0, 'max': 3900.0}, {'current': 3.498, 'min': 1200.0, 'max': 3900.0}, {'current': 3.498, 'min': 1200.0, 'max': 3900.0}, {'current': 3.5, 'min': 1200.0, 'max': 3900.0}, {'current': 3.5, 'min': 1200.0, 'max': 3900.0}, {'current': 3.44, 'min': 1200.0, 'max': 3900.0}, {'current': 3.499, 'min': 1200.0, 'max': 3900.0}, {'current': 3.499, 'min': 1200.0, 'max': 3900.0}, {'current': 3.499, 'min': 1200.0, 'max': 3900.0}, {'current': 3.305, 'min': 1200.0, 'max': 3900.0}, {'current': 3.499, 'min': 1200.0, 'max': 3900.0}, {'current': 3.405, 'min': 1200.0, 'max': 3900.0}, {'current': 3.499, 'min': 1200.0, 'max': 3900.0}, {'current': 3.5, 'min': 1200.0, 'max': 3900.0}, {'current': 3.5, 'min': 1200.0, 'max': 3900.0}, {'current': 3.477, 'min': 1200.0, 'max': 3900.0}, {'current': 3.5, 'min': 1200.0, 'max': 3900.0}, {'current': 3.499, 'min': 1200.0, 'max': 3900.0}, {'current': 3.5, 'min': 1200.0, 'max': 3900.0}, {'current': 3.499, 'min': 1200.0, 'max': 3900.0}, {'current': 3.5, 'min': 1200.0, 'max': 3900.0}, {'current': 3.5, 'min': 1200.0, 'max': 3900.0}, {'current': 3.499, 'min': 1200.0, 'max': 3900.0}, {'current': 3.473, 'min': 1200.0, 'max': 3900.0}, {'current': 3.5, 'min': 1200.0, 'max': 3900.0}, {'current': 3.499, 'min': 1200.0, 'max': 3900.0}, {'current': 3.499, 'min': 1200.0, 'max': 3900.0}, {'current': 3.5, 'min': 1200.0, 'max': 3900.0}, {'current': 3.499, 'min': 1200.0, 'max': 3900.0}, {'current': 3.5, 'min': 1200.0, 'max': 3900.0}, {'current': 3.5, 'min': 1200.0, 'max': 3900.0}, {'current': 3.499, 'min': 1200.0, 'max': 3900.0}, {'current': 3.485, 'min': 1200.0, 'max': 3900.0}, {'current': 3.499, 'min': 1200.0, 'max': 3900.0}, {'current': 3.499, 'min': 1200.0, 'max': 3900.0}, {'current': 3.499, 'min': 1200.0, 'max': 3900.0}, {'current': 3.499, 'min': 1200.0, 'max': 3900.0}, {'current': 3.418, 'min': 1200.0, 'max': 3900.0}, {'current': 3.499, 'min': 1200.0, 'max': 3900.0}, {'current': 1.2, 'min': 1200.0, 'max': 3900.0}], 'disk': {'/': {'total': 1755.8268928527832, 'used': 1518.8260078430176}}, 'gpu': 'NVIDIA RTX A5000', 'gpu_count': 6, 'gpu_devices': [{'name': 'NVIDIA RTX A5000', 'memory_total': 25757220864}, {'name': 'NVIDIA RTX A5000', 'memory_total': 25757220864}, {'name': 'NVIDIA RTX A5000', 'memory_total': 25757220864}, {'name': 'NVIDIA RTX A5000', 'memory_total': 25757220864}, {'name': 'NVIDIA RTX A5000', 'memory_total': 25757220864}, {'name': 'NVIDIA RTX A5000', 'memory_total': 25757220864}], 'memory': {'total': 251.5408706665039}}
+2024-04-25 17:09:06,299 INFO    HandlerThread:216459 [system_monitor.py:probe():224] Finished collecting system info
+2024-04-25 17:09:06,299 INFO    HandlerThread:216459 [system_monitor.py:probe():227] Publishing system info
+2024-04-25 17:09:06,299 DEBUG   HandlerThread:216459 [system_info.py:_save_conda():207] Saving list of conda packages installed into the current environment
+2024-04-25 17:09:06,974 INFO    Thread-12 :216459 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ubuntu/21thanh.ht/imbalanced_dynamics/source/wandb/run-20240425_170905-2ksmlmmt/files/conda-environment.yaml
+2024-04-25 17:09:10,933 DEBUG   HandlerThread:216459 [system_info.py:_save_conda():222] Saving conda packages done
+2024-04-25 17:09:10,935 INFO    HandlerThread:216459 [system_monitor.py:probe():229] Finished publishing system info
+2024-04-25 17:09:10,938 DEBUG   SenderThread:216459 [sender.py:send():379] send: files
+2024-04-25 17:09:10,938 INFO    SenderThread:216459 [sender.py:_save_file():1390] saving file wandb-metadata.json with policy now
+2024-04-25 17:09:10,939 DEBUG   HandlerThread:216459 [handler.py:handle_request():146] handle_request: status_report
+2024-04-25 17:09:10,976 INFO    Thread-12 :216459 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/21thanh.ht/imbalanced_dynamics/source/wandb/run-20240425_170905-2ksmlmmt/files/conda-environment.yaml
+2024-04-25 17:09:10,977 INFO    Thread-12 :216459 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ubuntu/21thanh.ht/imbalanced_dynamics/source/wandb/run-20240425_170905-2ksmlmmt/files/wandb-metadata.json
+2024-04-25 17:09:11,092 DEBUG   HandlerThread:216459 [handler.py:handle_request():146] handle_request: python_packages
+2024-04-25 17:09:11,092 DEBUG   SenderThread:216459 [sender.py:send_request():406] send_request: python_packages
+2024-04-25 17:09:11,093 DEBUG   HandlerThread:216459 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-25 17:09:11,094 DEBUG   HandlerThread:216459 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-25 17:09:11,094 DEBUG   SenderThread:216459 [sender.py:send_request():406] send_request: stop_status
+2024-04-25 17:09:11,490 DEBUG   SenderThread:216459 [sender.py:send():379] send: telemetry
+2024-04-25 17:09:11,976 INFO    Thread-12 :216459 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ubuntu/21thanh.ht/imbalanced_dynamics/source/wandb/run-20240425_170905-2ksmlmmt/files/output.log
+2024-04-25 17:09:11,977 INFO    Thread-12 :216459 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ubuntu/21thanh.ht/imbalanced_dynamics/source/wandb/run-20240425_170905-2ksmlmmt/files/requirements.txt
+2024-04-25 17:09:11,982 INFO    wandb-upload_0:216459 [upload_job.py:push():131] Uploaded file /tmp/tmp_x8ugv_0wandb/d899cz94-wandb-metadata.json
+2024-04-25 17:09:13,977 INFO    Thread-12 :216459 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/21thanh.ht/imbalanced_dynamics/source/wandb/run-20240425_170905-2ksmlmmt/files/output.log
+2024-04-25 17:09:16,529 DEBUG   HandlerThread:216459 [handler.py:handle_request():146] handle_request: status_report
+2024-04-25 17:09:18,525 DEBUG   HandlerThread:216459 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-25 17:09:18,527 DEBUG   SenderThread:216459 [sender.py:send():379] send: history
+2024-04-25 17:09:18,527 DEBUG   SenderThread:216459 [sender.py:send_request():406] send_request: summary_record
+2024-04-25 17:09:18,528 INFO    SenderThread:216459 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-25 17:09:18,984 INFO    Thread-12 :216459 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ubuntu/21thanh.ht/imbalanced_dynamics/source/wandb/run-20240425_170905-2ksmlmmt/files/wandb-summary.json
+2024-04-25 17:09:19,984 INFO    Thread-12 :216459 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/21thanh.ht/imbalanced_dynamics/source/wandb/run-20240425_170905-2ksmlmmt/files/output.log
+2024-04-25 17:09:21,569 DEBUG   HandlerThread:216459 [handler.py:handle_request():146] handle_request: status_report
+2024-04-25 17:09:24,363 DEBUG   HandlerThread:216459 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-25 17:09:24,364 DEBUG   SenderThread:216459 [sender.py:send():379] send: history
+2024-04-25 17:09:24,364 DEBUG   SenderThread:216459 [sender.py:send_request():406] send_request: summary_record
+2024-04-25 17:09:24,365 INFO    SenderThread:216459 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-25 17:09:24,988 INFO    Thread-12 :216459 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/21thanh.ht/imbalanced_dynamics/source/wandb/run-20240425_170905-2ksmlmmt/files/wandb-summary.json
+2024-04-25 17:09:25,989 INFO    Thread-12 :216459 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/21thanh.ht/imbalanced_dynamics/source/wandb/run-20240425_170905-2ksmlmmt/files/output.log
+2024-04-25 17:09:26,095 DEBUG   HandlerThread:216459 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-25 17:09:26,095 DEBUG   HandlerThread:216459 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-25 17:09:26,096 DEBUG   SenderThread:216459 [sender.py:send_request():406] send_request: stop_status
+2024-04-25 17:09:27,331 DEBUG   HandlerThread:216459 [handler.py:handle_request():146] handle_request: status_report
+2024-04-25 17:09:30,292 DEBUG   HandlerThread:216459 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-25 17:09:30,293 DEBUG   SenderThread:216459 [sender.py:send():379] send: history
+2024-04-25 17:09:30,294 DEBUG   SenderThread:216459 [sender.py:send_request():406] send_request: summary_record
+2024-04-25 17:09:30,295 INFO    SenderThread:216459 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-25 17:09:31,001 INFO    Thread-12 :216459 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/21thanh.ht/imbalanced_dynamics/source/wandb/run-20240425_170905-2ksmlmmt/files/wandb-summary.json
+2024-04-25 17:09:32,003 INFO    Thread-12 :216459 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/21thanh.ht/imbalanced_dynamics/source/wandb/run-20240425_170905-2ksmlmmt/files/output.log
+2024-04-25 17:09:32,341 DEBUG   HandlerThread:216459 [handler.py:handle_request():146] handle_request: status_report
+2024-04-25 17:09:36,425 DEBUG   HandlerThread:216459 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-25 17:09:36,426 DEBUG   SenderThread:216459 [sender.py:send():379] send: history
+2024-04-25 17:09:36,426 DEBUG   SenderThread:216459 [sender.py:send_request():406] send_request: summary_record
+2024-04-25 17:09:36,428 INFO    SenderThread:216459 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-25 17:09:37,003 INFO    Thread-12 :216459 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/21thanh.ht/imbalanced_dynamics/source/wandb/run-20240425_170905-2ksmlmmt/files/wandb-summary.json
+2024-04-25 17:09:37,433 DEBUG   HandlerThread:216459 [handler.py:handle_request():146] handle_request: status_report
+2024-04-25 17:09:38,003 INFO    Thread-12 :216459 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/21thanh.ht/imbalanced_dynamics/source/wandb/run-20240425_170905-2ksmlmmt/files/output.log
+2024-04-25 17:09:38,003 INFO    Thread-12 :216459 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/21thanh.ht/imbalanced_dynamics/source/wandb/run-20240425_170905-2ksmlmmt/files/config.yaml
+2024-04-25 17:09:41,097 DEBUG   HandlerThread:216459 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-25 17:09:41,098 DEBUG   HandlerThread:216459 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-25 17:09:41,099 DEBUG   SenderThread:216459 [sender.py:send_request():406] send_request: stop_status
+2024-04-25 17:09:42,670 DEBUG   HandlerThread:216459 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-25 17:09:42,671 DEBUG   SenderThread:216459 [sender.py:send():379] send: history
+2024-04-25 17:09:42,671 DEBUG   SenderThread:216459 [sender.py:send_request():406] send_request: summary_record
+2024-04-25 17:09:42,672 INFO    SenderThread:216459 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-25 17:09:42,721 DEBUG   HandlerThread:216459 [handler.py:handle_request():146] handle_request: status_report
+2024-04-25 17:09:43,011 INFO    Thread-12 :216459 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/21thanh.ht/imbalanced_dynamics/source/wandb/run-20240425_170905-2ksmlmmt/files/wandb-summary.json
+2024-04-25 17:09:44,014 INFO    Thread-12 :216459 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/21thanh.ht/imbalanced_dynamics/source/wandb/run-20240425_170905-2ksmlmmt/files/output.log
+2024-04-25 17:09:47,724 DEBUG   HandlerThread:216459 [handler.py:handle_request():146] handle_request: status_report
+2024-04-25 17:09:48,732 DEBUG   HandlerThread:216459 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-25 17:09:48,733 DEBUG   SenderThread:216459 [sender.py:send():379] send: history
+2024-04-25 17:09:48,734 DEBUG   SenderThread:216459 [sender.py:send_request():406] send_request: summary_record
+2024-04-25 17:09:48,735 INFO    SenderThread:216459 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-25 17:09:49,017 INFO    Thread-12 :216459 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/21thanh.ht/imbalanced_dynamics/source/wandb/run-20240425_170905-2ksmlmmt/files/wandb-summary.json
+2024-04-25 17:09:50,021 INFO    Thread-12 :216459 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/21thanh.ht/imbalanced_dynamics/source/wandb/run-20240425_170905-2ksmlmmt/files/output.log
+2024-04-25 17:09:52,738 DEBUG   HandlerThread:216459 [handler.py:handle_request():146] handle_request: status_report
+2024-04-25 17:09:54,898 DEBUG   HandlerThread:216459 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-25 17:09:54,898 DEBUG   SenderThread:216459 [sender.py:send():379] send: history
+2024-04-25 17:09:54,899 DEBUG   SenderThread:216459 [sender.py:send_request():406] send_request: summary_record
+2024-04-25 17:09:54,900 INFO    SenderThread:216459 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-25 17:09:55,026 INFO    Thread-12 :216459 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/21thanh.ht/imbalanced_dynamics/source/wandb/run-20240425_170905-2ksmlmmt/files/wandb-summary.json
+2024-04-25 17:09:56,026 INFO    Thread-12 :216459 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/21thanh.ht/imbalanced_dynamics/source/wandb/run-20240425_170905-2ksmlmmt/files/output.log
+2024-04-25 17:09:56,094 DEBUG   HandlerThread:216459 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-25 17:09:56,098 DEBUG   HandlerThread:216459 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-25 17:09:56,105 DEBUG   SenderThread:216459 [sender.py:send_request():406] send_request: stop_status
+2024-04-25 17:09:58,386 DEBUG   HandlerThread:216459 [handler.py:handle_request():146] handle_request: status_report
+2024-04-25 17:10:01,218 DEBUG   HandlerThread:216459 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-25 17:10:01,219 DEBUG   SenderThread:216459 [sender.py:send():379] send: history
+2024-04-25 17:10:01,219 DEBUG   SenderThread:216459 [sender.py:send_request():406] send_request: summary_record
+2024-04-25 17:10:01,219 INFO    SenderThread:216459 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-25 17:10:02,030 INFO    Thread-12 :216459 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/21thanh.ht/imbalanced_dynamics/source/wandb/run-20240425_170905-2ksmlmmt/files/wandb-summary.json
+2024-04-25 17:10:04,030 INFO    Thread-12 :216459 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/21thanh.ht/imbalanced_dynamics/source/wandb/run-20240425_170905-2ksmlmmt/files/output.log
+2024-04-25 17:10:04,269 DEBUG   HandlerThread:216459 [handler.py:handle_request():146] handle_request: status_report
+2024-04-25 17:10:06,259 DEBUG   SystemMonitor:216459 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-04-25 17:10:06,261 DEBUG   SenderThread:216459 [sender.py:send():379] send: stats
+2024-04-25 17:10:07,365 DEBUG   HandlerThread:216459 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-25 17:10:07,366 DEBUG   SenderThread:216459 [sender.py:send():379] send: history
+2024-04-25 17:10:07,366 DEBUG   SenderThread:216459 [sender.py:send_request():406] send_request: summary_record
+2024-04-25 17:10:07,367 INFO    SenderThread:216459 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-25 17:10:08,032 INFO    Thread-12 :216459 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/21thanh.ht/imbalanced_dynamics/source/wandb/run-20240425_170905-2ksmlmmt/files/wandb-summary.json
+2024-04-25 17:10:09,367 DEBUG   HandlerThread:216459 [handler.py:handle_request():146] handle_request: status_report
+2024-04-25 17:10:10,034 INFO    Thread-12 :216459 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/21thanh.ht/imbalanced_dynamics/source/wandb/run-20240425_170905-2ksmlmmt/files/output.log
+2024-04-25 17:10:11,100 DEBUG   HandlerThread:216459 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-25 17:10:11,101 DEBUG   SenderThread:216459 [sender.py:send_request():406] send_request: stop_status
+2024-04-25 17:10:11,109 DEBUG   HandlerThread:216459 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-25 17:10:13,194 DEBUG   HandlerThread:216459 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-25 17:10:13,195 DEBUG   SenderThread:216459 [sender.py:send():379] send: history
+2024-04-25 17:10:13,195 DEBUG   SenderThread:216459 [sender.py:send_request():406] send_request: summary_record
+2024-04-25 17:10:13,196 INFO    SenderThread:216459 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-25 17:10:14,035 INFO    Thread-12 :216459 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/21thanh.ht/imbalanced_dynamics/source/wandb/run-20240425_170905-2ksmlmmt/files/wandb-summary.json
+2024-04-25 17:10:15,239 DEBUG   HandlerThread:216459 [handler.py:handle_request():146] handle_request: status_report
+2024-04-25 17:10:16,038 INFO    Thread-12 :216459 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/21thanh.ht/imbalanced_dynamics/source/wandb/run-20240425_170905-2ksmlmmt/files/output.log
+2024-04-25 17:10:19,456 DEBUG   HandlerThread:216459 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-25 17:10:19,457 DEBUG   SenderThread:216459 [sender.py:send():379] send: history
+2024-04-25 17:10:19,457 DEBUG   SenderThread:216459 [sender.py:send_request():406] send_request: summary_record
+2024-04-25 17:10:19,458 INFO    SenderThread:216459 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-25 17:10:20,039 INFO    Thread-12 :216459 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/21thanh.ht/imbalanced_dynamics/source/wandb/run-20240425_170905-2ksmlmmt/files/wandb-summary.json
+2024-04-25 17:10:20,460 DEBUG   HandlerThread:216459 [handler.py:handle_request():146] handle_request: status_report
+2024-04-25 17:10:22,039 INFO    Thread-12 :216459 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/21thanh.ht/imbalanced_dynamics/source/wandb/run-20240425_170905-2ksmlmmt/files/output.log
+2024-04-25 17:10:25,465 DEBUG   HandlerThread:216459 [handler.py:handle_request():146] handle_request: status_report
+2024-04-25 17:10:25,601 DEBUG   HandlerThread:216459 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-25 17:10:25,601 DEBUG   SenderThread:216459 [sender.py:send():379] send: history
+2024-04-25 17:10:25,602 DEBUG   SenderThread:216459 [sender.py:send_request():406] send_request: summary_record
+2024-04-25 17:10:25,603 INFO    SenderThread:216459 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-25 17:10:26,046 INFO    Thread-12 :216459 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/21thanh.ht/imbalanced_dynamics/source/wandb/run-20240425_170905-2ksmlmmt/files/wandb-summary.json
+2024-04-25 17:10:26,110 DEBUG   HandlerThread:216459 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-25 17:10:26,116 DEBUG   HandlerThread:216459 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-25 17:10:26,116 DEBUG   SenderThread:216459 [sender.py:send_request():406] send_request: stop_status
+2024-04-25 17:10:28,046 INFO    Thread-12 :216459 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/21thanh.ht/imbalanced_dynamics/source/wandb/run-20240425_170905-2ksmlmmt/files/output.log
+2024-04-25 17:10:31,457 DEBUG   HandlerThread:216459 [handler.py:handle_request():146] handle_request: status_report
+2024-04-25 17:10:31,771 DEBUG   HandlerThread:216459 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-25 17:10:31,772 DEBUG   SenderThread:216459 [sender.py:send():379] send: history
+2024-04-25 17:10:31,773 DEBUG   SenderThread:216459 [sender.py:send_request():406] send_request: summary_record
+2024-04-25 17:10:31,773 INFO    SenderThread:216459 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-25 17:10:32,047 INFO    Thread-12 :216459 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/21thanh.ht/imbalanced_dynamics/source/wandb/run-20240425_170905-2ksmlmmt/files/wandb-summary.json
+2024-04-25 17:10:34,051 INFO    Thread-12 :216459 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/21thanh.ht/imbalanced_dynamics/source/wandb/run-20240425_170905-2ksmlmmt/files/output.log
+2024-04-25 17:10:36,263 DEBUG   SenderThread:216459 [sender.py:send():379] send: stats
+2024-04-25 17:10:37,268 DEBUG   HandlerThread:216459 [handler.py:handle_request():146] handle_request: status_report
+2024-04-25 17:10:37,766 DEBUG   HandlerThread:216459 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-25 17:10:37,767 DEBUG   SenderThread:216459 [sender.py:send():379] send: history
+2024-04-25 17:10:37,767 DEBUG   SenderThread:216459 [sender.py:send_request():406] send_request: summary_record
+2024-04-25 17:10:37,767 INFO    SenderThread:216459 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-25 17:10:38,054 INFO    Thread-12 :216459 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/21thanh.ht/imbalanced_dynamics/source/wandb/run-20240425_170905-2ksmlmmt/files/wandb-summary.json
+2024-04-25 17:10:40,054 INFO    Thread-12 :216459 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/21thanh.ht/imbalanced_dynamics/source/wandb/run-20240425_170905-2ksmlmmt/files/output.log
+2024-04-25 17:10:41,108 DEBUG   HandlerThread:216459 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-25 17:10:41,120 DEBUG   HandlerThread:216459 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-25 17:10:41,122 DEBUG   SenderThread:216459 [sender.py:send_request():406] send_request: stop_status
+2024-04-25 17:10:42,454 DEBUG   HandlerThread:216459 [handler.py:handle_request():146] handle_request: status_report
+2024-04-25 17:10:43,923 DEBUG   HandlerThread:216459 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-25 17:10:43,925 DEBUG   SenderThread:216459 [sender.py:send():379] send: history
+2024-04-25 17:10:43,926 DEBUG   SenderThread:216459 [sender.py:send_request():406] send_request: summary_record
+2024-04-25 17:10:43,926 INFO    SenderThread:216459 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-25 17:10:44,067 INFO    Thread-12 :216459 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/21thanh.ht/imbalanced_dynamics/source/wandb/run-20240425_170905-2ksmlmmt/files/wandb-summary.json
+2024-04-25 17:10:46,066 INFO    Thread-12 :216459 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/21thanh.ht/imbalanced_dynamics/source/wandb/run-20240425_170905-2ksmlmmt/files/output.log
+2024-04-25 17:10:47,931 DEBUG   HandlerThread:216459 [handler.py:handle_request():146] handle_request: status_report
+2024-04-25 17:10:50,186 DEBUG   HandlerThread:216459 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-25 17:10:50,187 DEBUG   SenderThread:216459 [sender.py:send():379] send: history
+2024-04-25 17:10:50,187 DEBUG   SenderThread:216459 [sender.py:send_request():406] send_request: summary_record
+2024-04-25 17:10:50,188 INFO    SenderThread:216459 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-25 17:10:51,072 INFO    Thread-12 :216459 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/21thanh.ht/imbalanced_dynamics/source/wandb/run-20240425_170905-2ksmlmmt/files/wandb-summary.json
+2024-04-25 17:10:52,073 INFO    Thread-12 :216459 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/21thanh.ht/imbalanced_dynamics/source/wandb/run-20240425_170905-2ksmlmmt/files/output.log
+2024-04-25 17:10:53,206 DEBUG   HandlerThread:216459 [handler.py:handle_request():146] handle_request: status_report
+2024-04-25 17:10:56,113 DEBUG   HandlerThread:216459 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-25 17:10:56,118 DEBUG   HandlerThread:216459 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-25 17:10:56,119 DEBUG   SenderThread:216459 [sender.py:send_request():406] send_request: stop_status
+2024-04-25 17:10:56,441 DEBUG   HandlerThread:216459 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-25 17:10:56,445 DEBUG   SenderThread:216459 [sender.py:send():379] send: history
+2024-04-25 17:10:56,446 DEBUG   SenderThread:216459 [sender.py:send_request():406] send_request: summary_record
+2024-04-25 17:10:56,446 INFO    SenderThread:216459 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-25 17:10:57,077 INFO    Thread-12 :216459 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/21thanh.ht/imbalanced_dynamics/source/wandb/run-20240425_170905-2ksmlmmt/files/wandb-summary.json
+2024-04-25 17:10:58,079 INFO    Thread-12 :216459 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/21thanh.ht/imbalanced_dynamics/source/wandb/run-20240425_170905-2ksmlmmt/files/output.log
+2024-04-25 17:10:58,447 DEBUG   HandlerThread:216459 [handler.py:handle_request():146] handle_request: status_report
+2024-04-25 17:11:02,562 DEBUG   HandlerThread:216459 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-25 17:11:02,563 DEBUG   SenderThread:216459 [sender.py:send():379] send: history
+2024-04-25 17:11:02,563 DEBUG   SenderThread:216459 [sender.py:send_request():406] send_request: summary_record
+2024-04-25 17:11:02,565 INFO    SenderThread:216459 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-25 17:11:03,084 INFO    Thread-12 :216459 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/21thanh.ht/imbalanced_dynamics/source/wandb/run-20240425_170905-2ksmlmmt/files/wandb-summary.json
+2024-04-25 17:11:03,613 DEBUG   HandlerThread:216459 [handler.py:handle_request():146] handle_request: status_report
+2024-04-25 17:11:04,084 INFO    Thread-12 :216459 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/21thanh.ht/imbalanced_dynamics/source/wandb/run-20240425_170905-2ksmlmmt/files/output.log
+2024-04-25 17:11:06,269 DEBUG   SenderThread:216459 [sender.py:send():379] send: stats
+2024-04-25 17:11:08,717 DEBUG   HandlerThread:216459 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-25 17:11:08,718 DEBUG   SenderThread:216459 [sender.py:send():379] send: history
+2024-04-25 17:11:08,718 DEBUG   SenderThread:216459 [sender.py:send_request():406] send_request: summary_record
+2024-04-25 17:11:08,718 DEBUG   HandlerThread:216459 [handler.py:handle_request():146] handle_request: status_report
+2024-04-25 17:11:08,719 INFO    SenderThread:216459 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-25 17:11:09,088 INFO    Thread-12 :216459 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/21thanh.ht/imbalanced_dynamics/source/wandb/run-20240425_170905-2ksmlmmt/files/wandb-summary.json
+2024-04-25 17:11:10,093 INFO    Thread-12 :216459 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/21thanh.ht/imbalanced_dynamics/source/wandb/run-20240425_170905-2ksmlmmt/files/output.log
+2024-04-25 17:11:11,118 DEBUG   HandlerThread:216459 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-25 17:11:11,119 DEBUG   HandlerThread:216459 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-25 17:11:11,119 DEBUG   SenderThread:216459 [sender.py:send_request():406] send_request: stop_status
+2024-04-25 17:11:14,406 DEBUG   HandlerThread:216459 [handler.py:handle_request():146] handle_request: status_report
+2024-04-25 17:11:15,193 DEBUG   HandlerThread:216459 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-25 17:11:15,194 DEBUG   SenderThread:216459 [sender.py:send():379] send: history
+2024-04-25 17:11:15,195 DEBUG   SenderThread:216459 [sender.py:send_request():406] send_request: summary_record
+2024-04-25 17:11:15,196 INFO    SenderThread:216459 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-25 17:11:15,197 DEBUG   SenderThread:216459 [sender.py:send():379] send: telemetry
+2024-04-25 17:11:15,197 DEBUG   SenderThread:216459 [sender.py:send():379] send: exit
+2024-04-25 17:11:15,197 INFO    SenderThread:216459 [sender.py:send_exit():586] handling exit code: 0
+2024-04-25 17:11:15,197 INFO    SenderThread:216459 [sender.py:send_exit():588] handling runtime: 129
+2024-04-25 17:11:15,205 INFO    SenderThread:216459 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-25 17:11:15,206 INFO    SenderThread:216459 [sender.py:send_exit():594] send defer
+2024-04-25 17:11:15,206 DEBUG   HandlerThread:216459 [handler.py:handle_request():146] handle_request: defer
+2024-04-25 17:11:15,206 INFO    HandlerThread:216459 [handler.py:handle_request_defer():172] handle defer: 0
+2024-04-25 17:11:15,206 DEBUG   SenderThread:216459 [sender.py:send_request():406] send_request: defer
+2024-04-25 17:11:15,206 INFO    SenderThread:216459 [sender.py:send_request_defer():610] handle sender defer: 0
+2024-04-25 17:11:15,206 INFO    SenderThread:216459 [sender.py:transition_state():614] send defer: 1
+2024-04-25 17:11:15,206 DEBUG   HandlerThread:216459 [handler.py:handle_request():146] handle_request: defer
+2024-04-25 17:11:15,206 INFO    HandlerThread:216459 [handler.py:handle_request_defer():172] handle defer: 1
+2024-04-25 17:11:15,207 DEBUG   SenderThread:216459 [sender.py:send_request():406] send_request: defer
+2024-04-25 17:11:15,207 INFO    SenderThread:216459 [sender.py:send_request_defer():610] handle sender defer: 1
+2024-04-25 17:11:15,207 INFO    SenderThread:216459 [sender.py:transition_state():614] send defer: 2
+2024-04-25 17:11:15,207 DEBUG   HandlerThread:216459 [handler.py:handle_request():146] handle_request: defer
+2024-04-25 17:11:15,207 INFO    HandlerThread:216459 [handler.py:handle_request_defer():172] handle defer: 2
+2024-04-25 17:11:15,207 INFO    HandlerThread:216459 [system_monitor.py:finish():203] Stopping system monitor
+2024-04-25 17:11:15,207 DEBUG   SystemMonitor:216459 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-04-25 17:11:15,207 DEBUG   SystemMonitor:216459 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-04-25 17:11:15,209 INFO    HandlerThread:216459 [interfaces.py:finish():202] Joined cpu monitor
+2024-04-25 17:11:15,209 INFO    HandlerThread:216459 [interfaces.py:finish():202] Joined disk monitor
+2024-04-25 17:11:15,285 INFO    HandlerThread:216459 [interfaces.py:finish():202] Joined gpu monitor
+2024-04-25 17:11:15,285 INFO    HandlerThread:216459 [interfaces.py:finish():202] Joined memory monitor
+2024-04-25 17:11:15,286 INFO    HandlerThread:216459 [interfaces.py:finish():202] Joined network monitor
+2024-04-25 17:11:15,286 DEBUG   SenderThread:216459 [sender.py:send_request():406] send_request: defer
+2024-04-25 17:11:15,286 INFO    SenderThread:216459 [sender.py:send_request_defer():610] handle sender defer: 2
+2024-04-25 17:11:15,286 INFO    SenderThread:216459 [sender.py:transition_state():614] send defer: 3
+2024-04-25 17:11:15,286 DEBUG   SenderThread:216459 [sender.py:send():379] send: stats
+2024-04-25 17:11:15,287 DEBUG   HandlerThread:216459 [handler.py:handle_request():146] handle_request: defer
+2024-04-25 17:11:15,287 INFO    HandlerThread:216459 [handler.py:handle_request_defer():172] handle defer: 3
+2024-04-25 17:11:15,287 DEBUG   SenderThread:216459 [sender.py:send_request():406] send_request: defer
+2024-04-25 17:11:15,287 INFO    SenderThread:216459 [sender.py:send_request_defer():610] handle sender defer: 3
+2024-04-25 17:11:15,287 INFO    SenderThread:216459 [sender.py:transition_state():614] send defer: 4
+2024-04-25 17:11:15,287 DEBUG   HandlerThread:216459 [handler.py:handle_request():146] handle_request: defer
+2024-04-25 17:11:15,287 INFO    HandlerThread:216459 [handler.py:handle_request_defer():172] handle defer: 4
+2024-04-25 17:11:15,287 DEBUG   SenderThread:216459 [sender.py:send_request():406] send_request: defer
+2024-04-25 17:11:15,287 INFO    SenderThread:216459 [sender.py:send_request_defer():610] handle sender defer: 4
+2024-04-25 17:11:15,287 INFO    SenderThread:216459 [sender.py:transition_state():614] send defer: 5
+2024-04-25 17:11:15,287 DEBUG   HandlerThread:216459 [handler.py:handle_request():146] handle_request: defer
+2024-04-25 17:11:15,287 INFO    HandlerThread:216459 [handler.py:handle_request_defer():172] handle defer: 5
+2024-04-25 17:11:15,288 DEBUG   SenderThread:216459 [sender.py:send():379] send: summary
+2024-04-25 17:11:15,288 INFO    SenderThread:216459 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-25 17:11:15,288 DEBUG   SenderThread:216459 [sender.py:send_request():406] send_request: defer
+2024-04-25 17:11:15,288 INFO    SenderThread:216459 [sender.py:send_request_defer():610] handle sender defer: 5
+2024-04-25 17:11:15,288 INFO    SenderThread:216459 [sender.py:transition_state():614] send defer: 6
+2024-04-25 17:11:15,288 DEBUG   HandlerThread:216459 [handler.py:handle_request():146] handle_request: defer
+2024-04-25 17:11:15,288 INFO    HandlerThread:216459 [handler.py:handle_request_defer():172] handle defer: 6
+2024-04-25 17:11:15,289 DEBUG   SenderThread:216459 [sender.py:send_request():406] send_request: defer
+2024-04-25 17:11:15,289 INFO    SenderThread:216459 [sender.py:send_request_defer():610] handle sender defer: 6
+2024-04-25 17:11:15,292 DEBUG   HandlerThread:216459 [handler.py:handle_request():146] handle_request: status_report
+2024-04-25 17:11:15,542 INFO    SenderThread:216459 [sender.py:transition_state():614] send defer: 7
+2024-04-25 17:11:15,542 DEBUG   HandlerThread:216459 [handler.py:handle_request():146] handle_request: defer
+2024-04-25 17:11:15,543 INFO    HandlerThread:216459 [handler.py:handle_request_defer():172] handle defer: 7
+2024-04-25 17:11:15,543 DEBUG   SenderThread:216459 [sender.py:send_request():406] send_request: defer
+2024-04-25 17:11:15,543 INFO    SenderThread:216459 [sender.py:send_request_defer():610] handle sender defer: 7
+2024-04-25 17:11:16,102 INFO    Thread-12 :216459 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/21thanh.ht/imbalanced_dynamics/source/wandb/run-20240425_170905-2ksmlmmt/files/wandb-summary.json
+2024-04-25 17:11:16,102 INFO    Thread-12 :216459 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/21thanh.ht/imbalanced_dynamics/source/wandb/run-20240425_170905-2ksmlmmt/files/output.log
+2024-04-25 17:11:16,102 INFO    Thread-12 :216459 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/21thanh.ht/imbalanced_dynamics/source/wandb/run-20240425_170905-2ksmlmmt/files/config.yaml
+2024-04-25 17:11:16,196 DEBUG   HandlerThread:216459 [handler.py:handle_request():146] handle_request: poll_exit
+2024-04-25 17:11:17,603 INFO    SenderThread:216459 [sender.py:transition_state():614] send defer: 8
+2024-04-25 17:11:17,603 DEBUG   SenderThread:216459 [sender.py:send_request():406] send_request: poll_exit
+2024-04-25 17:11:17,603 DEBUG   HandlerThread:216459 [handler.py:handle_request():146] handle_request: defer
+2024-04-25 17:11:17,604 INFO    HandlerThread:216459 [handler.py:handle_request_defer():172] handle defer: 8
+2024-04-25 17:11:17,604 DEBUG   SenderThread:216459 [sender.py:send_request():406] send_request: defer
+2024-04-25 17:11:17,604 INFO    SenderThread:216459 [sender.py:send_request_defer():610] handle sender defer: 8
+2024-04-25 17:11:17,604 INFO    SenderThread:216459 [job_builder.py:build():318] Attempting to build job artifact
+2024-04-25 17:11:17,604 INFO    SenderThread:216459 [job_builder.py:_get_source_type():455] is repo sourced job
+2024-04-25 17:11:17,625 INFO    SenderThread:216459 [job_builder.py:build():431] adding wandb-job metadata file
+2024-04-25 17:11:17,631 INFO    SenderThread:216459 [sender.py:transition_state():614] send defer: 9
+2024-04-25 17:11:17,631 DEBUG   HandlerThread:216459 [handler.py:handle_request():146] handle_request: defer
+2024-04-25 17:11:17,631 INFO    HandlerThread:216459 [handler.py:handle_request_defer():172] handle defer: 9
+2024-04-25 17:11:17,631 DEBUG   SenderThread:216459 [sender.py:send():379] send: artifact
+2024-04-25 17:11:18,102 INFO    Thread-12 :216459 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/21thanh.ht/imbalanced_dynamics/source/wandb/run-20240425_170905-2ksmlmmt/files/output.log
+2024-04-25 17:11:18,197 DEBUG   HandlerThread:216459 [handler.py:handle_request():146] handle_request: poll_exit
+2024-04-25 17:11:18,823 INFO    SenderThread:216459 [sender.py:send_artifact():1468] sent artifact job-https___github.com_GitHub-Traveler_imbalanced-learning_source_train_cifar10.py - {'id': 'QXJ0aWZhY3Q6ODEwMDU1NTk4', 'state': 'COMMITTED', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjE2NTg4MTI0NA==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6ODEwMDU1NTk4', 'versionIndex': 6}}}
+2024-04-25 17:11:18,823 DEBUG   SenderThread:216459 [sender.py:send_request():406] send_request: defer
+2024-04-25 17:11:18,823 INFO    SenderThread:216459 [sender.py:send_request_defer():610] handle sender defer: 9
+2024-04-25 17:11:18,823 INFO    SenderThread:216459 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-04-25 17:11:19,103 INFO    SenderThread:216459 [dir_watcher.py:finish():388] scan: /home/ubuntu/21thanh.ht/imbalanced_dynamics/source/wandb/run-20240425_170905-2ksmlmmt/files
+2024-04-25 17:11:19,103 INFO    SenderThread:216459 [dir_watcher.py:finish():402] scan save: /home/ubuntu/21thanh.ht/imbalanced_dynamics/source/wandb/run-20240425_170905-2ksmlmmt/files/conda-environment.yaml conda-environment.yaml
+2024-04-25 17:11:19,104 INFO    SenderThread:216459 [dir_watcher.py:finish():402] scan save: /home/ubuntu/21thanh.ht/imbalanced_dynamics/source/wandb/run-20240425_170905-2ksmlmmt/files/wandb-summary.json wandb-summary.json
+2024-04-25 17:11:19,104 INFO    SenderThread:216459 [dir_watcher.py:finish():402] scan save: /home/ubuntu/21thanh.ht/imbalanced_dynamics/source/wandb/run-20240425_170905-2ksmlmmt/files/config.yaml config.yaml
+2024-04-25 17:11:19,108 INFO    SenderThread:216459 [dir_watcher.py:finish():402] scan save: /home/ubuntu/21thanh.ht/imbalanced_dynamics/source/wandb/run-20240425_170905-2ksmlmmt/files/requirements.txt requirements.txt
+2024-04-25 17:11:19,118 INFO    SenderThread:216459 [dir_watcher.py:finish():402] scan save: /home/ubuntu/21thanh.ht/imbalanced_dynamics/source/wandb/run-20240425_170905-2ksmlmmt/files/wandb-metadata.json wandb-metadata.json
+2024-04-25 17:11:19,118 INFO    SenderThread:216459 [dir_watcher.py:finish():402] scan save: /home/ubuntu/21thanh.ht/imbalanced_dynamics/source/wandb/run-20240425_170905-2ksmlmmt/files/output.log output.log
+2024-04-25 17:11:19,118 INFO    SenderThread:216459 [sender.py:transition_state():614] send defer: 10
+2024-04-25 17:11:19,119 DEBUG   SenderThread:216459 [sender.py:send_request():406] send_request: poll_exit
+2024-04-25 17:11:19,120 DEBUG   HandlerThread:216459 [handler.py:handle_request():146] handle_request: defer
+2024-04-25 17:11:19,120 INFO    HandlerThread:216459 [handler.py:handle_request_defer():172] handle defer: 10
+2024-04-25 17:11:19,121 DEBUG   SenderThread:216459 [sender.py:send_request():406] send_request: defer
+2024-04-25 17:11:19,121 INFO    SenderThread:216459 [sender.py:send_request_defer():610] handle sender defer: 10
+2024-04-25 17:11:19,121 INFO    SenderThread:216459 [file_pusher.py:finish():172] shutting down file pusher
+2024-04-25 17:11:19,198 DEBUG   HandlerThread:216459 [handler.py:handle_request():146] handle_request: poll_exit
+2024-04-25 17:11:19,198 DEBUG   SenderThread:216459 [sender.py:send_request():406] send_request: poll_exit
+2024-04-25 17:11:19,382 ERROR   wandb-upload_0:216459 [internal_api.py:upload_file():2767] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/emthanh-org/cifar10-learning-dynamics/2ksmlmmt/conda-environment.yaml?Expires=1714151505&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=gTgi6xQuB2Qj9J0zIu5yyQamu1detQv5xwM0smbDiVI7oUFSTr9vpI8xFr%2BXH7R1AMiqEWV5ReOOnFI700UKs4KA325t6qLr1Dn8TlBGcqeGjEOpjlCXlg99lh7%2FQa%2FKC8d5bvGo9Gp40qgWpzXbNBbUDdNBkmglp1P0HJe77RPjlCZ0lfSyf%2F%2BNUUELZe23ADunfrFeTVmSbkRw1Oua7rlocJwyLUEremGNNwAM1LoZmXZnUGMLa1YGB5azXZOMBT0C2%2FsMWqDmad04zw7oxzxYd7Gx1py%2FuFvTuuuLhR8NVngOPb3a0ff51uI26twrPML2nBG3dwbP%2BHVbBmTuow%3D%3D: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-04-25 17:11:19,382 ERROR   wandb-upload_0:216459 [internal_api.py:upload_file():2769] upload_file request headers: {'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '10215'}
+2024-04-25 17:11:19,382 ERROR   wandb-upload_0:216459 [internal_api.py:upload_file():2771] upload_file response body: 
+2024-04-25 17:11:19,900 INFO    wandb-upload_4:216459 [upload_job.py:push():131] Uploaded file /home/ubuntu/21thanh.ht/imbalanced_dynamics/source/wandb/run-20240425_170905-2ksmlmmt/files/output.log
+2024-04-25 17:11:19,919 INFO    wandb-upload_2:216459 [upload_job.py:push():131] Uploaded file /home/ubuntu/21thanh.ht/imbalanced_dynamics/source/wandb/run-20240425_170905-2ksmlmmt/files/config.yaml
+2024-04-25 17:11:19,927 INFO    wandb-upload_3:216459 [upload_job.py:push():131] Uploaded file /home/ubuntu/21thanh.ht/imbalanced_dynamics/source/wandb/run-20240425_170905-2ksmlmmt/files/requirements.txt
+2024-04-25 17:11:20,198 DEBUG   HandlerThread:216459 [handler.py:handle_request():146] handle_request: poll_exit
+2024-04-25 17:11:20,199 DEBUG   SenderThread:216459 [sender.py:send_request():406] send_request: poll_exit
+2024-04-25 17:11:20,933 INFO    wandb-upload_0:216459 [upload_job.py:push():131] Uploaded file /home/ubuntu/21thanh.ht/imbalanced_dynamics/source/wandb/run-20240425_170905-2ksmlmmt/files/conda-environment.yaml
+2024-04-25 17:11:20,961 INFO    wandb-upload_1:216459 [upload_job.py:push():131] Uploaded file /home/ubuntu/21thanh.ht/imbalanced_dynamics/source/wandb/run-20240425_170905-2ksmlmmt/files/wandb-summary.json
+2024-04-25 17:11:21,162 INFO    Thread-11 (_thread_body):216459 [sender.py:transition_state():614] send defer: 11
+2024-04-25 17:11:21,162 DEBUG   HandlerThread:216459 [handler.py:handle_request():146] handle_request: defer
+2024-04-25 17:11:21,162 INFO    HandlerThread:216459 [handler.py:handle_request_defer():172] handle defer: 11
+2024-04-25 17:11:21,163 DEBUG   SenderThread:216459 [sender.py:send_request():406] send_request: defer
+2024-04-25 17:11:21,163 INFO    SenderThread:216459 [sender.py:send_request_defer():610] handle sender defer: 11
+2024-04-25 17:11:21,163 INFO    SenderThread:216459 [file_pusher.py:join():178] waiting for file pusher
+2024-04-25 17:11:21,163 INFO    SenderThread:216459 [sender.py:transition_state():614] send defer: 12
+2024-04-25 17:11:21,163 DEBUG   HandlerThread:216459 [handler.py:handle_request():146] handle_request: defer
+2024-04-25 17:11:21,163 INFO    HandlerThread:216459 [handler.py:handle_request_defer():172] handle defer: 12
+2024-04-25 17:11:21,163 DEBUG   SenderThread:216459 [sender.py:send_request():406] send_request: defer
+2024-04-25 17:11:21,163 INFO    SenderThread:216459 [sender.py:send_request_defer():610] handle sender defer: 12
+2024-04-25 17:11:21,164 INFO    SenderThread:216459 [file_stream.py:finish():614] file stream finish called
+2024-04-25 17:11:21,199 DEBUG   HandlerThread:216459 [handler.py:handle_request():146] handle_request: poll_exit
+2024-04-25 17:11:21,962 INFO    SenderThread:216459 [file_stream.py:finish():618] file stream finish is done
+2024-04-25 17:11:21,963 INFO    SenderThread:216459 [sender.py:transition_state():614] send defer: 13
+2024-04-25 17:11:21,963 DEBUG   SenderThread:216459 [sender.py:send_request():406] send_request: poll_exit
+2024-04-25 17:11:21,963 DEBUG   HandlerThread:216459 [handler.py:handle_request():146] handle_request: defer
+2024-04-25 17:11:21,963 INFO    HandlerThread:216459 [handler.py:handle_request_defer():172] handle defer: 13
+2024-04-25 17:11:21,964 DEBUG   SenderThread:216459 [sender.py:send_request():406] send_request: defer
+2024-04-25 17:11:21,964 INFO    SenderThread:216459 [sender.py:send_request_defer():610] handle sender defer: 13
+2024-04-25 17:11:21,964 INFO    SenderThread:216459 [sender.py:transition_state():614] send defer: 14
+2024-04-25 17:11:21,964 DEBUG   HandlerThread:216459 [handler.py:handle_request():146] handle_request: defer
+2024-04-25 17:11:21,964 INFO    HandlerThread:216459 [handler.py:handle_request_defer():172] handle defer: 14
+2024-04-25 17:11:21,964 DEBUG   SenderThread:216459 [sender.py:send():379] send: final
+2024-04-25 17:11:21,964 DEBUG   SenderThread:216459 [sender.py:send():379] send: footer
+2024-04-25 17:11:21,964 DEBUG   SenderThread:216459 [sender.py:send_request():406] send_request: defer
+2024-04-25 17:11:21,964 INFO    SenderThread:216459 [sender.py:send_request_defer():610] handle sender defer: 14
+2024-04-25 17:11:21,965 DEBUG   HandlerThread:216459 [handler.py:handle_request():146] handle_request: poll_exit
+2024-04-25 17:11:21,965 DEBUG   SenderThread:216459 [sender.py:send_request():406] send_request: poll_exit
+2024-04-25 17:11:21,966 DEBUG   HandlerThread:216459 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-25 17:11:21,967 DEBUG   HandlerThread:216459 [handler.py:handle_request():146] handle_request: server_info
+2024-04-25 17:11:21,967 DEBUG   SenderThread:216459 [sender.py:send_request():406] send_request: server_info
+2024-04-25 17:11:22,009 DEBUG   HandlerThread:216459 [handler.py:handle_request():146] handle_request: get_summary
+2024-04-25 17:11:22,010 DEBUG   HandlerThread:216459 [handler.py:handle_request():146] handle_request: sampled_history
+2024-04-25 17:11:22,194 DEBUG   HandlerThread:216459 [handler.py:handle_request():146] handle_request: shutdown
+2024-04-25 17:11:22,194 INFO    HandlerThread:216459 [handler.py:finish():866] shutting down handler
+2024-04-25 17:11:22,967 INFO    WriterThread:216459 [datastore.py:close():296] close: /home/ubuntu/21thanh.ht/imbalanced_dynamics/source/wandb/run-20240425_170905-2ksmlmmt/run-2ksmlmmt.wandb
+2024-04-25 17:11:23,193 INFO    SenderThread:216459 [sender.py:finish():1546] shutting down sender
+2024-04-25 17:11:23,193 INFO    SenderThread:216459 [file_pusher.py:finish():172] shutting down file pusher
+2024-04-25 17:11:23,193 INFO    SenderThread:216459 [file_pusher.py:join():178] waiting for file pusher
