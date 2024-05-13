@@ -1,0 +1,41 @@
+
+Total number of parameters:  9231114
+
+
+
+
+ 20%|██████████████████████████████████▌                                                                                                                                          | 4/20 [01:51<07:27, 27.99s/it]
+Traceback (most recent call last):
+  File "/home/ubuntu/21thanh.ht/imbalanced_dynamics/source/train_cifar10.py", line 136, in <module>
+    outputs = net(inputs)
+              ^^^^^^^^^^^
+  File "/home/ubuntu/miniconda3/envs/EmThanhServer/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/miniconda3/envs/EmThanhServer/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/21thanh.ht/imbalanced_dynamics/source/models/vgg.py", line 21, in forward
+    out = self.features(x)
+          ^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/miniconda3/envs/EmThanhServer/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/miniconda3/envs/EmThanhServer/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/miniconda3/envs/EmThanhServer/lib/python3.11/site-packages/torch/nn/modules/container.py", line 217, in forward
+    input = module(input)
+            ^^^^^^^^^^^^^
+  File "/home/ubuntu/miniconda3/envs/EmThanhServer/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/miniconda3/envs/EmThanhServer/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/miniconda3/envs/EmThanhServer/lib/python3.11/site-packages/torch/nn/modules/conv.py", line 460, in forward
+    return self._conv_forward(input, self.weight, self.bias)
+                                                  ^^^^^^^^^
+  File "/home/ubuntu/miniconda3/envs/EmThanhServer/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1675, in __getattr__
+    def __getattr__(self, name: str) -> Any:
+KeyboardInterrupt
