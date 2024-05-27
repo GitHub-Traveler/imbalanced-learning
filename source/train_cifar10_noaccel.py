@@ -22,8 +22,9 @@ import random
 # %% Argparse
 msg = "Script for running training on CIFAR-10 Dataset"
 parser = argparse.ArgumentParser(description = msg)
-parser.add_argument('-d', '--device', help = 'Choose a CUDA device to operate on (0 - num_device). Defaut: CUDA:0', default=0)
-
+parser.add_argument('-d', '--device', help = 'Choose a CUDA device to operate on (0 - num_device). Default: CUDA:0', default=0)
+parser.add_argument('-n', '--name', help = 'Name of the runs')
+parser.add_argument('-i', '--imb_degree', help = 'The degree of imbalancing of specific class in the dataset. Default: 1', default = 1)
 args = parser.parse_args()
 
 # %% Config of the run
@@ -37,12 +38,14 @@ args = parser.parse_args()
 # }
 
 train_config = {
-    'model_type': 'ResNet18',
+    'deterministic': False,
+    'model_type': 'VGG11',
     'lr': 0.1,
     'weight_decay': 0,
     'batch_size': 128,
     'momentum': 0,
     'num_epochs': 20,
+    'imb_degree': args.imb_degree
 }
 device = torch.device('cuda:' + args.device)
 
@@ -83,6 +86,8 @@ run = wandb.init(
     "architecture": train_config['model_type'],
     "dataset": "CIFAR-10",
     "epochs": train_config['num_epochs'],
+    "deterministic": train_config['deterministic'],
+    "imb_degree": train_config['imb_degree']
     },
     name='cifar10_test_run'
 )

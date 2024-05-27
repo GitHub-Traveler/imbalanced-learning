@@ -37,6 +37,7 @@ args = parser.parse_args()
 # }
 
 train_config = {
+    'deterministic': True,
     'model_type': 'ResNet18',
     'lr': 0.1,
     'weight_decay': 0,
@@ -61,8 +62,8 @@ transform_func = v2.Compose([
 
 train_dataset = datasets.CIFAR10(root='../cifar10_dataset', train=True, download=True, transform=transform_func)
 test_dataset = datasets.CIFAR10(root='../cifar10_dataset', train=False, download=True, transform=transform_func)
-train_dataloader = torch.utils.data.DataLoader(train_dataset, shuffle = True, num_workers=16, batch_size = train_config['batch_size'], pin_memory=True, prefetch_factor=4)
-test_dataloader = torch.utils.data.DataLoader(test_dataset, shuffle = False, num_workers=16, batch_size = train_config['batch_size'])
+train_dataloader = torch.utils.data.DataLoader(train_dataset, shuffle = True, num_workers=16, batch_size = train_config['batch_size'], pin_memory=True, prefetch_factor=4, generator = generator)
+test_dataloader = torch.utils.data.DataLoader(test_dataset, shuffle = False, num_workers=16, batch_size = train_config['batch_size'], generator = generator)
 
 classes = ('plane', 'car', 'bird', 'cat', 'deer', 'dog', 'frog', 'horse', 'ship', 'truck')
 
@@ -89,6 +90,7 @@ run = wandb.init(
     "architecture": train_config['model_type'],
     "dataset": "CIFAR-10",
     "epochs": train_config['num_epochs'],
+    "deterministic": train_config['deterministic'],
     },
     name='cifar10_test_run'
 )

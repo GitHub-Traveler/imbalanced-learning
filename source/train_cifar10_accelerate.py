@@ -24,7 +24,7 @@ msg = "Script for running training on CIFAR-10 Dataset"
 parser = argparse.ArgumentParser(description = msg)
 parser.add_argument('-d', '--device', help = 'Choose a CUDA device to operate on (0 - num_device). Defaut: CUDA:0', default=0)
 parser.add_argument('-a', '--accelerate', action='store_true', help = 'Activate multi-GPU training')
-
+parser.add_argument('-n', '--name', help = 'Name of the runs')
 args = parser.parse_args()
 
 # %% Config of the run
@@ -86,7 +86,7 @@ if accelerator.is_main_process:
         "dataset": "CIFAR-10",
         "epochs": train_config['num_epochs'],
         },
-        name='cifar10_test_run'
+        name=args.name
     )
 
     run.define_metric("epoch")
