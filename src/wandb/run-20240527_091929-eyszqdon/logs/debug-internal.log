@@ -1,0 +1,13 @@
+2024-05-27 09:19:29,525 INFO    StreamThr :201825 [internal.py:wandb_internal():86] W&B internal server running at pid: 201825, started at: 2024-05-27 09:19:29.524345
+2024-05-27 09:19:29,528 DEBUG   HandlerThread:201825 [handler.py:handle_request():146] handle_request: status
+2024-05-27 09:19:29,530 INFO    WriterThread:201825 [datastore.py:open_for_write():87] open: /home/ubuntu/21thanh.ht/imbalanced_dynamics/source/wandb/run-20240527_091929-eyszqdon/run-eyszqdon.wandb
+2024-05-27 09:19:29,531 DEBUG   SenderThread:201825 [sender.py:send():379] send: header
+2024-05-27 09:19:29,537 DEBUG   SenderThread:201825 [sender.py:send():379] send: run
+2024-05-27 09:19:34,539 DEBUG   HandlerThread:201825 [handler.py:handle_request():146] handle_request: keepalive
+2024-05-27 09:19:39,540 DEBUG   HandlerThread:201825 [handler.py:handle_request():146] handle_request: keepalive
+2024-05-27 09:19:44,542 DEBUG   HandlerThread:201825 [handler.py:handle_request():146] handle_request: keepalive
+2024-05-27 09:19:46,547 WARNING StreamThr :201825 [internal.py:is_dead():414] Internal process exiting, parent pid 201803 disappeared
+2024-05-27 09:19:46,547 ERROR   StreamThr :201825 [internal.py:wandb_internal():152] Internal process shutdown.
+2024-05-27 09:19:47,533 INFO    MainThread:201825 [internal.py:handle_exit():76] Internal process exited
+2024-05-27 09:19:47,541 INFO    WriterThread:201825 [datastore.py:close():296] close: /home/ubuntu/21thanh.ht/imbalanced_dynamics/source/wandb/run-20240527_091929-eyszqdon/run-eyszqdon.wandb
+2024-05-27 09:19:47,542 INFO    HandlerThread:201825 [handler.py:finish():866] shutting down handler
