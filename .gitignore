@@ -10,4 +10,7 @@ wandb/*
 
 wandb
 
+.vscode/*
+
 .vscode
+
