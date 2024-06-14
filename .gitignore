@@ -1,17 +1,9 @@
 dataset/*
 
-dataset
-
 data/*
-
-data
 
 wandb/*
 
-wandb
-
 .vscode/*
-
-.vscode
 
 test.*

@@ -1,0 +1,95 @@
+2024-05-27 07:37:50,711 INFO    StreamThr :182258 [internal.py:wandb_internal():86] W&B internal server running at pid: 182258, started at: 2024-05-27 07:37:50.710441
+2024-05-27 07:37:50,713 DEBUG   HandlerThread:182258 [handler.py:handle_request():146] handle_request: status
+2024-05-27 07:37:50,716 INFO    WriterThread:182258 [datastore.py:open_for_write():87] open: /home/ubuntu/21thanh.ht/imbalanced_dynamics/source/wandb/run-20240527_073750-9wlv8no2/run-9wlv8no2.wandb
+2024-05-27 07:37:50,717 DEBUG   SenderThread:182258 [sender.py:send():379] send: header
+2024-05-27 07:37:50,722 DEBUG   SenderThread:182258 [sender.py:send():379] send: run
+2024-05-27 07:37:55,723 DEBUG   HandlerThread:182258 [handler.py:handle_request():146] handle_request: keepalive
+2024-05-27 07:38:00,725 DEBUG   HandlerThread:182258 [handler.py:handle_request():146] handle_request: keepalive
+2024-05-27 07:38:05,727 DEBUG   HandlerThread:182258 [handler.py:handle_request():146] handle_request: keepalive
+2024-05-27 07:38:10,728 DEBUG   HandlerThread:182258 [handler.py:handle_request():146] handle_request: keepalive
+2024-05-27 07:38:15,730 DEBUG   HandlerThread:182258 [handler.py:handle_request():146] handle_request: keepalive
+2024-05-27 07:38:20,731 DEBUG   HandlerThread:182258 [handler.py:handle_request():146] handle_request: keepalive
+2024-05-27 07:38:25,733 DEBUG   HandlerThread:182258 [handler.py:handle_request():146] handle_request: keepalive
+2024-05-27 07:38:30,734 DEBUG   HandlerThread:182258 [handler.py:handle_request():146] handle_request: keepalive
+2024-05-27 07:38:35,736 DEBUG   HandlerThread:182258 [handler.py:handle_request():146] handle_request: keepalive
+2024-05-27 07:38:40,737 DEBUG   HandlerThread:182258 [handler.py:handle_request():146] handle_request: keepalive
+2024-05-27 07:38:45,739 DEBUG   HandlerThread:182258 [handler.py:handle_request():146] handle_request: keepalive
+2024-05-27 07:38:50,741 DEBUG   HandlerThread:182258 [handler.py:handle_request():146] handle_request: keepalive
+2024-05-27 07:38:54,284 INFO    SenderThread:182258 [retry.py:__call__():172] Retry attempt failed:
+Traceback (most recent call last):
+  File "/home/ubuntu/miniconda3/envs/emthanhcv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 467, in _make_request
+    self._validate_conn(conn)
+  File "/home/ubuntu/miniconda3/envs/emthanhcv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 1099, in _validate_conn
+    conn.connect()
+  File "/home/ubuntu/miniconda3/envs/emthanhcv/lib/python3.10/site-packages/urllib3/connection.py", line 653, in connect
+    sock_and_verified = _ssl_wrap_socket_and_match_hostname(
+  File "/home/ubuntu/miniconda3/envs/emthanhcv/lib/python3.10/site-packages/urllib3/connection.py", line 806, in _ssl_wrap_socket_and_match_hostname
+    ssl_sock = ssl_wrap_socket(
+  File "/home/ubuntu/miniconda3/envs/emthanhcv/lib/python3.10/site-packages/urllib3/util/ssl_.py", line 465, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls, server_hostname)
+  File "/home/ubuntu/miniconda3/envs/emthanhcv/lib/python3.10/site-packages/urllib3/util/ssl_.py", line 509, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/home/ubuntu/miniconda3/envs/emthanhcv/lib/python3.10/ssl.py", line 513, in wrap_socket
+    return self.sslsocket_class._create(
+  File "/home/ubuntu/miniconda3/envs/emthanhcv/lib/python3.10/ssl.py", line 1104, in _create
+    self.do_handshake()
+  File "/home/ubuntu/miniconda3/envs/emthanhcv/lib/python3.10/ssl.py", line 1375, in do_handshake
+    self._sslobj.do_handshake()
+TimeoutError: _ssl.c:990: The handshake operation timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/miniconda3/envs/emthanhcv/lib/python3.10/site-packages/requests/adapters.py", line 486, in send
+    resp = conn.urlopen(
+  File "/home/ubuntu/miniconda3/envs/emthanhcv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 847, in urlopen
+    retries = retries.increment(
+  File "/home/ubuntu/miniconda3/envs/emthanhcv/lib/python3.10/site-packages/urllib3/util/retry.py", line 470, in increment
+    raise reraise(type(error), error, _stacktrace)
+  File "/home/ubuntu/miniconda3/envs/emthanhcv/lib/python3.10/site-packages/urllib3/util/util.py", line 39, in reraise
+    raise value
+  File "/home/ubuntu/miniconda3/envs/emthanhcv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 793, in urlopen
+    response = self._make_request(
+  File "/home/ubuntu/miniconda3/envs/emthanhcv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 491, in _make_request
+    raise new_e
+  File "/home/ubuntu/miniconda3/envs/emthanhcv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 469, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=conn.timeout)
+  File "/home/ubuntu/miniconda3/envs/emthanhcv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 370, in _raise_timeout
+    raise ReadTimeoutError(
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Read timed out. (read timeout=20)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/miniconda3/envs/emthanhcv/lib/python3.10/site-packages/wandb/sdk/lib/retry.py", line 131, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "/home/ubuntu/miniconda3/envs/emthanhcv/lib/python3.10/site-packages/wandb/sdk/internal/internal_api.py", line 369, in execute
+    return self.client.execute(*args, **kwargs)  # type: ignore
+  File "/home/ubuntu/miniconda3/envs/emthanhcv/lib/python3.10/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "/home/ubuntu/miniconda3/envs/emthanhcv/lib/python3.10/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "/home/ubuntu/miniconda3/envs/emthanhcv/lib/python3.10/site-packages/wandb/sdk/lib/gql_request.py", line 58, in execute
+    request = self.session.post(self.url, **post_args)
+  File "/home/ubuntu/miniconda3/envs/emthanhcv/lib/python3.10/site-packages/requests/sessions.py", line 637, in post
+    return self.request("POST", url, data=data, json=json, **kwargs)
+  File "/home/ubuntu/miniconda3/envs/emthanhcv/lib/python3.10/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/ubuntu/miniconda3/envs/emthanhcv/lib/python3.10/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/ubuntu/miniconda3/envs/emthanhcv/lib/python3.10/site-packages/requests/adapters.py", line 532, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='api.wandb.ai', port=443): Read timed out. (read timeout=20)
+2024-05-27 07:38:55,742 DEBUG   HandlerThread:182258 [handler.py:handle_request():146] handle_request: keepalive
+2024-05-27 07:39:00,744 DEBUG   HandlerThread:182258 [handler.py:handle_request():146] handle_request: keepalive
+2024-05-27 07:39:05,745 DEBUG   HandlerThread:182258 [handler.py:handle_request():146] handle_request: keepalive
+2024-05-27 07:39:10,747 DEBUG   HandlerThread:182258 [handler.py:handle_request():146] handle_request: keepalive
+2024-05-27 07:39:15,748 DEBUG   HandlerThread:182258 [handler.py:handle_request():146] handle_request: keepalive
+2024-05-27 07:39:20,750 DEBUG   HandlerThread:182258 [handler.py:handle_request():146] handle_request: cancel
+2024-05-27 07:39:20,751 DEBUG   HandlerThread:182258 [handler.py:handle_request():146] handle_request: cancel
+2024-05-27 07:39:20,751 DEBUG   SenderThread:182258 [sender.py:send():388] Record cancelled: run
+2024-05-27 07:39:20,751 DEBUG   HandlerThread:182258 [handler.py:handle_request():146] handle_request: status_report
+2024-05-27 07:39:22,761 DEBUG   HandlerThread:182258 [handler.py:handle_request():146] handle_request: shutdown
+2024-05-27 07:39:22,762 INFO    HandlerThread:182258 [handler.py:finish():866] shutting down handler
+2024-05-27 07:39:23,752 INFO    SenderThread:182258 [sender.py:finish():1546] shutting down sender
+2024-05-27 07:39:23,752 INFO    WriterThread:182258 [datastore.py:close():296] close: /home/ubuntu/21thanh.ht/imbalanced_dynamics/source/wandb/run-20240527_073750-9wlv8no2/run-9wlv8no2.wandb
