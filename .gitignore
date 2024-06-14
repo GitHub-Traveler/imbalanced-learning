@@ -4,6 +4,8 @@ data/*
 
 wandb/*
 
+wandb
+
 .vscode/*
 
 test.*
