@@ -1,8 +1,12 @@
 #!/bin/bash
-max=34
+max=100
+
 for i in `seq 1 $max`
 do
-    python train_cifar10_noaccel.py -d 1 -i 0.1 &
-    python train_cifar10_noaccel.py -d 2 -i 0.1 &
-    python train_cifar10_noaccel.py -d 5 -i 0.1
+    python main.py -d 3 -i 0.1 --dataset 1 -m 1
+done &
+
+for i in `seq 1 $max`
+do
+    python main.py -d 2 -i 0.1 --dataset 1 -m 0
 done
