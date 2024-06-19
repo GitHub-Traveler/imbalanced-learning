@@ -14,10 +14,6 @@ wandb
 
 .vscode
 
-modeling-training/*
-
-modeling-training
-
 results/*
 
 results
