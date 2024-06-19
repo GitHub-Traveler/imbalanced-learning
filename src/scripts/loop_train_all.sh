@@ -1,12 +1,12 @@
 #!/bin/bash
-max=100
-
-for i in `seq 1 $max`
+resnet=39
+vgg=0
+for i in `seq 1 $resnet`
 do
-    python main.py -d 3 -i 0.1 --dataset 1 -m 1
+    python main.py -d 1 --dataset 1 -m 1
 done &
 
-for i in `seq 1 $max`
+for i in `seq 1 $vgg`
 do
-    python main.py -d 2 -i 0.1 --dataset 1 -m 0
+    python main.py -d 0 --dataset 1 -m 0
 done

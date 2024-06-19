@@ -14,4 +14,24 @@ wandb
 
 .vscode
 
+modeling-training/*
+
+modeling-training
+
+results/*
+
+results
+
 test.*
+
+test/*
+
+test
+
+test*
+
+test*/*
+
+results*
+
+results*/
